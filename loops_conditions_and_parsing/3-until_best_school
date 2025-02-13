@@ -6,5 +6,5 @@ count=o
 until [ $count -eq 10 ]
 do
  echo "Best School"
- (( count ++ ))
+ (( count++ ))
 done
