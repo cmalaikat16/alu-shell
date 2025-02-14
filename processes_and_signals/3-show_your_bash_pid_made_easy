@@ -1,10 +1,4 @@
 #!/usr/bin/env bash
-# Displays a list of currently running processes containing the bash keyword.
-# shellcheck disable=SC2009
-
-ps -aux | grep bash
-root@7654c0b82763:/alu-shell/processes_and_signals# cat 3-show_your_bash_pid_made_easy 
-#!/usr/bin/env bash
 # Displays the PID along with the process name, of 
 #+ processes whose name contains the word "bash".
 
